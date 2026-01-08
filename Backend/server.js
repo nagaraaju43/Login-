@@ -3,6 +3,9 @@ import path from "path";
 import { fileURLToPath } from "url";
 import fs from "fs";
 import nodemailer from "nodemailer";
+import dotenv from "dotenv";
+dotenv.config();
+
 
 const app = express();
 const __filename = fileURLToPath(import.meta.url);
@@ -28,8 +31,8 @@ const writeUsers = (users) => fs.writeFileSync(usersFilePath, JSON.stringify(use
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'svnagaraju0316@gmail.com',
-        pass: 'pxerywywjffhfkdq' // Your App Password
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS // Your App Password
     }
 });
 
