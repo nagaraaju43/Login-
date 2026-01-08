@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1767870194721,
+    "username": "Nagaraju",
+    "email": "svnagaraju4457@gmail.com",
+    "password": "Nagaraju@16",
+    "createdAt": "2026-01-08T11:03:14.721Z"
+  },
+  {
+    "id": 1767870733608,
+    "username": "Demo",
+    "email": "raajpvt@gmail.com",
+    "password": "Maharaju@16",
+    "createdAt": "2026-01-08T11:12:13.608Z"
+  },
+  {
+    "id": 1767872987050,
+    "username": "test",
+    "email": "svnagaraju0316@gmail.com",
+    "password": "Test@123",
+    "createdAt": "2026-01-08T11:49:47.050Z"
+  },
+  {
+    "id": 1767873062666,
+    "username": "sai",
+    "email": "23951a66g4@iare.ac.in",
+    "password": "Teju@123",
+    "createdAt": "2026-01-08T11:51:02.666Z"
+  }
+]
